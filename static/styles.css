@@ -63,3 +63,52 @@ body {
     color: #444;
     line-height: 1.6;
 }
+
+/* DEALS SECTION */
+
+.deals {
+    max-width: 900px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+
+.deals h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.deal-card {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.deal-card h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.deal-desc {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 16px;
+}
+
+.deal-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #111;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.deal-btn:hover {
+    background: #333;
+}
